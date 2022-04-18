@@ -34,10 +34,10 @@ public class Main {
                         continue;
                     }
                     Ticket toAdd = inputNew(in);
-                    System.out.println("a");
+                    System.out.println("Добавлен" + toAdd);
                     argsComm.add(toAdd);
                     break;
-                case "Login":
+                case "login":
                     if(argsComm.size() != 3){
                         print("Неверный ввод команды. Формат: Login login password");
                         continue;
